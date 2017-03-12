@@ -1,0 +1,298 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS **** ADD BEFORE app.js ***** -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Contact Us</title>
+
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <script src="/javascripts/site.js"></script>
+  </head>
+
+  <body class="contact">
+    <div id="wrapper">
+  <nav class="nav-fixed">
+    <div class="nav-wrapper white">
+       <a href="/home.html" class="left brand-logo"><img src="/images/logo.png" class="left brand-logo" alt="Logo" /></a>
+       <a href="#" data-activates="mobile-demo" class="button-collapse hide-on-large-only"><i class="material-icons red-text">menu</i></a>
+       <a href="/home.html" class="left brand-logo red-text">NLD</a>
+       <ul class="right hide-on-med-and-down">
+         <li><a href="/home.html">Home</a></li>
+         <li><a href="/about.html">About</a></li>
+         <li><a href="/consultant.html">Consultant</a></li>
+         <li><a href="/contact.html">Contact</a></li>
+       </ul>
+    </div>
+  </nav>
+
+  <ul class="side-nav" id="mobile-demo"> <!-- move outside of nav -->
+    <li><a href="/home.html">Home</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/consultant.html">Consultant</a></li>
+    <li><a href="/contact.html">Contact</a></li>
+  </ul>
+  <div class="space-nav"></div>
+</div>
+
+    <!-- FORM -->
+<div class="container">
+  <h5>Contact Us</h5>
+  <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Message</label>
+        </div>
+      </div>
+      <button class="btn waves-effect waves-light red" type="submit" name="action">Submit
+        <i class="material-icons right">send</i>
+      </button>
+    </form>
+  </div>
+</div>
+
+<!-- Country Contact -->
+<div class="row">
+  <div class="col s12 m6 ">
+    <div class="card amber">
+      <div class="card-content red-text text-darken-2">
+        <span class="card-title">Vietnam</span>
+        <p>NATIONAL LEGISLATIVE DEVELOPMENT PROJECT (NLD)</p>
+        <p>Main contact: Mr. Jacob Gammelgaard, Project Field Manager</p>
+        <p>Address: 1704 Prime Center, 53 Quang Trung, Hanoi, Vietnam</p>
+        <p>Tel: (84) 43 943 3064 | Fax: (84) 43 943 4021</p>
+      </div>
+    </div>
+  </div>
+  <div class="col s12 m6">
+    <div class="card red">
+      <div class="card-content white-text">
+        <span class="card-title">Canada</span>
+        <p>CANADIAN BAR ASSOCIATION</p>
+        <p>Main contact: Ms. Kimberly Inksater, Director, International Initiatives</p>
+        <p>Add: 500-865 Carling Avenue, Ottawa, ON, Canada K1S 5S8</p>
+        <p>Tel: (613) 237-2925 | Fax: (613) 237-0185 | Website: <a href="https://www.cba.org/Home" class="grey-text text-lighten-1">www.cba.org</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Staff Contact -->
+<div class="row">
+  <div class="col s12">
+    <div class="card horizontal small">
+      <div class="card-image">
+        <img src="images/kim.jpg">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p class="card-title">Kimberly Inksater</p>
+          <p>Project Director</p>
+          <p></p>
+        </div>
+        <div class="card-action">
+          <a href="mailto:kimberlyi@cba.org">email</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col s12">
+    <div class="card horizontal small">
+      <div class="card-image">
+        <img src="images/jacob.jpg">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p class="card-title">Jacob Gammelgaard</p>
+          <p>Project Field Manager</p>
+          <p>Tel: 04.3943.3064 ext:10</p>
+        </div>
+        <div class="card-action">
+          <a href="mailto:jacobgammelgaard@nldvietnam.org">email</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col s12">
+    <div class="card horizontal small">
+      <div class="card-image">
+        <!--<img src="images/#.jpg">-->
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p class="card-title">Vu Tuan Minh</p>
+          <p>Senior Program Officer</p>
+          <p>Tel: 04.3943.3064 ext:17</p>
+        </div>
+        <div class="card-action">
+          <a href="mailto:min.vt@nldvietnam.org">email</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col s12">
+    <div class="card horizontal small">
+      <div class="card-image">
+        <img src="images/mai.jpg">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p class="card-title">Dam Tuyet Mai</p>
+          <p>Senior Administrative and Finance Officer</p>
+          <p>Tel: 04.3943.3064 ext:12</p>
+        </div>
+        <div class="card-action">
+          <a href="mailto:jacobgammelgaard@nldvietnam.org">email</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col s12">
+    <div class="card horizontal small">
+      <div class="card-image">
+        <img src="images/thao.png">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p class="card-title">Bui Thu Thao</p>
+          <p>Program Officer</p>
+          <p>Tel: 04.3943.3064 ext:18</p>
+        </div>
+        <div class="card-action">
+          <a href="mailto:thao.bt@nldvietnam.org">email</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col s12">
+    <div class="card horizontal small">
+      <div class="card-image">
+        <img src="images/hien.jpg">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p class="card-title">Nguyen Van Hien</p>
+          <p>Knowledge Management and Communications Officer</p>
+          <p>Tel: 04.3943.3064 ext:20</p>
+        </div>
+        <div class="card-action">
+          <a href="mailto:hien.vn@nldvietnam.org">email</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col s12">
+    <div class="card horizontal small">
+      <div class="card-image">
+        <img src="images/nguyen.jpg">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p class="card-title">Nguyen Vu Thao Nguyen</p>
+          <p>Senior Administrative and Logistics Officer</p>
+          <p>Tel: 04.3943.3064</p>
+        </div>
+        <div class="card-action">
+          <a href="mailto:nguyen.nv@nldvietnam.org">email</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12">
+      <div class="card horizontal small">
+        <div class="card-image">
+          <img src="images/loan.png">
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <p class="card-title">Luong Thi Hong Loan</p>
+            <p>Operations Officer</p>
+            <p>Tel: 04.3943.3064 ext:22</p>
+          </div>
+          <div class="card-action">
+            <a href="mailto:loan.lth@nldvietnam.org">email</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col s12">
+      <div class="card horizontal small">
+        <div class="card-image">
+          <img src="images/huyen.png">
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <p class="card-title">Tran Thi Thanh Huyen</p>
+            <p>Program Officer</p>
+            <p>Tel: 04.3943.3064 ext:18</p>
+          </div>
+          <div class="card-action">
+            <a href="mailto:huyen.ttt@nldvietnam.org">email</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div id="footer">
+  <div class="divider"></div>
+  <div class="section grey lighten-4">
+    <div class="row center">
+      <div class="col s4">
+        <p class="fbold">Links</p>
+        <ul>
+          <li><a href="/about.html" class="red-text">About</a></li>
+          <li><a href="/consultant.html" class="red-text">Consulant</a></li>
+          <li><a href="/contact.html" class="red-text">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="col s4">
+        <p class="fbold">Vietnam</p>
+        <ul>
+          <li>1704 Prime Center, 53 Quang Trung, Ha Noi</li>
+          <li>(84) 43 943 3064</li>
+        </ul>
+      </div>
+
+      <div class="col s4">
+        <p class="fbold">Canada</p>
+        <ul>
+          <li>500-865 Carling Avenue, Ottawa K1S 5S8</li>
+          <li>(613) 237-2925</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </body>
+</html>
